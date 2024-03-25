@@ -8,7 +8,8 @@ export const Home=()=>{
                 <p className=" text-sm md:text-lg">
                 Welcome to PhotoGrape, your premier destination for professional photography services. Our expert team is dedicated to capturing your precious moments with creativity and precision. Discover why we're renowned as the best photography studio worldwide.</p>
                 <span>
-                <button className="p-2 px-3 text-md md:text-xl bg-transparent border-white border-4 text-white rounded-3xl" >Join Now</button>
+                <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300
+                p-2 px-3 text-md md:text-xl bg-transparent border-white border-4 text-white rounded-3xl" >Join Now</button>
                 </span>
             </div>
         </>

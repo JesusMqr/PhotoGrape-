@@ -25,10 +25,10 @@ export const Badge=()=>{
                         <p className=' text-sm md:text-xl'>Discover our popular and best-selling photography packages at PhotoGrape. Our curated selection features a range of options tailored to meet your needs, from stunning wedding albums to captivating family portraits. With our commitment to excellence and customer satisfaction, it's no wonder why our packages are the top choice for clients worldwide.
                         </p>
                         <div className='flex gap-14 justify-center md:justify-start'>
-                            <button className='flex  gap-3' onClick={handleLikeClick}
+                            <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 flex  gap-3' onClick={handleLikeClick}
                              ><LikeIcon  fill={like}/><p>like</p>
                             </button> 
-                            <button className='flex  gap-3' ><img className='w-6' src={shareIcon}  alt="icono del boton compartir" /><p>Share</p>
+                            <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300 flex  gap-3' ><img className='w-6' src={shareIcon}  alt="icono del boton compartir" /><p>Share</p>
                             </button>
                         </div>
                     </div>
